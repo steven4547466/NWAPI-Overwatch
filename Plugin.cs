@@ -29,7 +29,7 @@ namespace NWAPI_Overwatch
         public static List<Player> OverwatchPlayers { get; private set; } = new List<Player>();
 
         [PluginPriority(LoadPriority.Highest)]
-        [PluginEntryPoint("Lmao NW \"Removed\" Overwatch", "1.0.0", "Fixing NW's mistakes since 2020", "Steven4547466")] // Is this too much?
+        [PluginEntryPoint("NW Overwatch", "1.0.0", "NW Overwatch", "Steven4547466")]
         void LoadPlugin()
         {
             Singleton = this;
